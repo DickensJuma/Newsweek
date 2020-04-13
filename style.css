@@ -1,6 +1,8 @@
-
-
 .header {
   height: 6rem !important;
   background: #f72210;
+}
+
+.logo {
+  width: 13rem;
 }
