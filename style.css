@@ -4,5 +4,74 @@
 }
 
 .logo {
-  width: 13rem;
+  width: 25rem;
+}
+.login h4 {
+  font-size: 0.7rem !important;
+}
+
+.login {
+  margin-top: 1.2rem;
+  font-size: 0.7rem !important;
+  display: block !important;
+}
+.btn {
+  border-radius: 0 !important;
+}
+
+.fas {
+  line-height: unset !important;
+}
+.nav-items {
+  background: white;
+}
+
+.nav-list {
+  margin-top: -1rem;
+}
+
+@media (max-width: 1320px) {
+  .container {
+    max-width: 100% !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .container {
+    max-width: 100% !important;
+  }
+
+  .logo {
+    width: 12rem;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    max-width: 100% !important;
+  }
+
+  .nav-items {
+    display: none !important;
+  }
+
+  .date-sec {
+    display: none !important;
+  }
+  .login {
+    margin-top: 1.2rem;
+    font-size: 0.7rem !important;
+    display: block !important;
+  }
+  .login h4 {
+    font-size: 0.7rem !important;
+  }
+  .header {
+    height: 3.4rem !important;
+    background: #f72210;
+  }
+  .logo {
+    width: 10rem;
+  }
+  .sub-button {
+    font-size: 0.6rem !important;
+  }
 }

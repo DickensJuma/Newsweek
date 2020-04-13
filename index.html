@@ -15,197 +15,1515 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
+    <script
+      src="https://kit.fontawesome.com/d4de0f4540.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="./style.css" />
     <title>Newsweek</title>
   </head>
   <body>
-    <div class="container mx-sm-0 p-0 w-sm-100 pr-sm-0 justify-content-center mx-lg-auto mx-md-auto">
-    <nav class=" col-sm-12 col-lg-12 col-md-12">
-      <div class="row  py-lg-3 p-0 text-light header">
-        <div class="col-lg-4  date-sec d-md-none
-                        d-sm-none
-                        d-xs-none pr-sm-0 d-lg-block">
-                        <div class="d-flex">
-                            <i class="fas fa-cloud"></i>&nbsp;
-                            <h5>23</h5><span>&#176;</span> &nbsp;Nairobi, KE
-                            &nbsp; <i class="fas
-                                fa-chevron-right"></i>
-                        </div>
-
-                        <p>Mon, April 13, 2020</p>
-                    </div>
-                    <div class="col-lg-4 col-md-6 pr-sm-0 col-md-2 col-sm-2
-                    col-sm-5 m-sm-0 p-sm-0 w-50
-                    p-0 m-0 mt-0">
-                    <div class="d-flex justify-content-lg-center
-                        justify-content-md-left">
-                        <img class="logo m-0 p-0 mt-lg-n4"
-                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Newsweek_Logo.svg/3000px-Newsweek_Logo.svg.png"
-                            alt="newsweek-logo">
-                    </div>
-                </div>
-                <div class="col-md-5 col-lg-4 col-sm-6 pr-sm-0 d-flex
-                    justify-content-end w-50
-                    sign-in">
-                    <div class="d-flex align-middle mt-md-2">
-
-                        <h4 class="pt-1">SIGN IN</h4>&nbsp;
-                        <span><button class="btn btn-light btn-md
-                                text-danger
-                                font-weight-bold py-0 sub-btn py-1">SUBSCRIBE
-                                <i
-                                    class="fas fa-chevron-right"></i></button></span>
-                        <i class="fas pt-1 fa-bars px-md-3 d-lg-none d-block
-                            px-1"></i>
-                    </div>
-                </div>
-            </div>
-        
-      <!-- <div class="col">
-        <date>Sun, Apr 12, 2020</date>
-      </div> -->
-      <!-- <span>
-        <a class="col" href="https://www.newsweek.com">
-          <svg
-            version="1.1"
-            id="Layer_1"
-            xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink"
-            x="0px"
-            y="0px"
-            viewBox="0 0 395.6 60"
-            style="enable-background: new 0 0 395.6 60;"
-            xml:space="preserve"
+    <div
+      class="container justify-content-center mx-lg-auto mx-md-auto mx-sm-0 p-0 w-sm-100 pr-sm-0"
+    >
+      <nav class="col-sm-12 col-lg-12 col-md-12">
+        <div class="row py-lg-3 p-0 text-light header">
+          <div
+            class="col-lg-4 date-sec d-md-none d-sm-none d-xs-none pr-sm-0 d-lg-block"
           >
-            <g>
-              <path
-                class="st0"
-                d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2	L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11	c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7	l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6	H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13	c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8	c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2	C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7	h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4	c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1	c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6	c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6	C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5	h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9	c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2	c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9	C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6	c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1	c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6	v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3	c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5	h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7"
-              ></path>
-            </g>
-          </svg>
-        </a>
-      </span> -->
-      <!-- <div>
-        <div class="col">
-          <a href="#">Sign In</a>
+            <div class="d-flex">
+              <i class="fas fa-cloud"></i>&nbsp;
+              <h5>23</h5>
+              <span>&#176;</span> &nbsp;Nairobi, KE &nbsp;
+              <i class="fas fa-chevron-right"></i>
+            </div>
 
-          <a target="_blank" href="#"
-            >Subscribe
-            <svg
-              version="1.1"
-              id="Layer_1"
-              xmlns="http://www.w3.org/2000/svg"
-              xmlns:xlink="http://www.w3.org/1999/xlink"
-              x="0px"
-              y="0px"
-              viewBox="0 0 8 14"
-              style="enable-background: new 0 0 8 14;"
-              xml:space="preserve"
+            <p>Mon, April 13, 2020</p>
+          </div>
+          <div
+            class="col-lg-4 col-md-6 pr-sm-0 col-md-2 col-sm-2 col-sm-5 m-sm-0 p-sm-0 w-50 p-0 m-0 mt-0"
+          >
+            <div
+              class="d-flex justify-content-lg-center justify-content-md-left"
             >
-              <g id="arrow-right">
-                <defs>
-                  <rect id="SVGID_1_" width="8" height="14"></rect>
-                </defs>
-                <clipPath id="SVGID_2_">
-                  <use xlink:href="#SVGID_1_" style="overflow: visible;"></use>
-                </clipPath>
-                <g id="Shape_1" class="st0">
-                  <g>
-                    <polygon
-                      class="st1"
-                      points="8,7 1.1,0 0,1.1 5.9,7 0,12.9 1.1,14 8,7 8,7	"
-                    ></polygon>
-                  </g>
-                </g>
-              </g>
-            </svg>
-          </a>
-        </div>
-      </div> -->
-    </div>
-    </nav>
-    </header>
-    <nav class="header-bottom">
-      <div class="flex-md jc-c">
-        <form action="#" method="post" id="" accept-charset="UTF-8">
-          <div>
-            <div class="container-inline">
-              <div
-                class="form-item form-type-textfield form-item-search-block-form"
-              >
-                <label class="element-invisible" for="edit-search-block-form--4"
-                  >Search
-                </label>
-                <input
-                  title="Enter the terms you wish to search for."
-                  placeholder="Search"
-                  type="text"
-                  id="edit-search-block-form--4"
-                  name="search_block_form"
-                  value=""
-                  size="15"
-                  maxlength="128"
-                  class="form-text"
-                />
-              </div>
-              <div class="form-actions form-wrapper" id="edit-actions--2">
-                <input
-                  type="submit"
-                  id="edit-submit--2"
-                  name="op"
-                  value="Search"
-                  class="form-submit"
-                />
-              </div>
-              <input type="hidden" name="form_build_id" /><input
-                type="hidden"
-                name="form_token"
-              /><input type="hidden" name="form_id" value="search_block_form" />
+              <img
+                class="logo m-0 p-0 mt-lg-n4"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Newsweek_Logo.svg/3000px-Newsweek_Logo.svg.png"
+                alt="newsweek-logo"
+              />
             </div>
           </div>
-        </form>
-        <ul class="page-nav">
-          <li class="first leaf active-trail">
-            <a href="#" title="">U.S.</a>
-          </li>
-          <li class="leaf">
-            <a href="#" title="">World</a>
-          </li>
-          <li class="leaf">
-            <a href="#" title="">Business</a>
-          </li>
-          <li class="leaf">
-            <a href="#" title="">Tech &amp; Science</a>
-          </li>
-          <li class="leaf">
-            <a href="#" title="">Culture</a>
-          </li>
-          <li class="leaf">
-            <a href="#" title="">Newsgeek</a>
-          </li>
-          <li class="leaf">
-            <a href="#" title="">Sports</a>
-          </li>
-          <li class="leaf">
-            <a href="#" title="">Health</a>
-          </li>
-          <li class="leaf">
-            <a href="#" title="">The Debate</a>
-          </li>
-          <li class="leaf">
-            <a href="#" title="">Vantage</a>
-          </li>
-          <li class="last leaf">
-            <a href="#" title="">Weather</a>
-          </li>
-        </ul>
-      </div>
-      <div id="amp_suggestions_container1" class="marketplace-suggestion"></div>
-    </nav>
+          <div
+            class="login col-md-5 col-lg-4 d-flex col-sm-6 pr-sm-0 w-50 justify-content-end"
+          >
+            <div class="d-flex mt-md-2 justify-content-end">
+              <h4 class="pt-1">SIGN IN</h4>
+              &nbsp;
+              <span
+                ><button
+                  class="btn btn-light btn-md py-0 sub-button py-1 text-danger font-weight-bold"
+                >
+                  SUBSCRIBE <i class="fas fa-chevron-right"></i></button
+              ></span>
+              <i class="fas fa-bars pt-1 d-block px-1 px-md-3 d-lg-none"></i>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="row nav-items container-fluid position-absolute nav-list d-lg-block d-md-none d-sm-none d-xs-none"
+        >
+          <div class="d-flex align-content-lg-center">
+            <ul
+              class="list-unstyled d-flex align-items-center justify-content-centered flex-nowrap"
+            >
+              <li class="nav-item">
+                <a href="#" class="nav-link text-dark font-weight-bold">U.S.</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link text-dark font-weight-bold"
+                  >World</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link text-dark font-weight-bold"
+                  >Business</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link text-dark font-weight-bold"
+                  >Tech & Science</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link text-dark font-weight-bold"
+                  >Culture</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link text-dark font-weight-bold"
+                  >Newsgeek</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link text-dark font-weight-bold"
+                  >Sports</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link text-dark font-weight-bold"
+                  >Health</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link text-dark font-weight-bold"
+                  >The Debate</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link text-dark font-weight-bold"
+                  >Vintage</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link text-dark font-weight-bold"
+                  >Weather</a
+                >
+              </li>
+              <li class="nav-item">
+                <div class="input">
+                  <input
+                    type="search"
+                    class="border-0 w-50"
+                    placeholder="Search"
+                  />
+                  <span class="fas fa-search"></span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </div>
 
+    <main class="container-fluid bg-white pt-3 mtop">
+      <section class="row">
+        <div class="col-md-8 row">
+          <div class="col-sm-5 order__two article-mt">
+            <h6 class="text-muted">FEATURED STORIES</h6>
 
+            <article class="card border-0">
+              <img
+                class="card-img-top"
+                src="https://d.newsweek.com/en/full/1578958/uss-theodore-roosevelt-brett-crozier-secrecy-coronavirus.webp?w=397&h=265&q=90&f=cf21ff6fa0c16545dd595fb682d4eb3c"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Nearly 600 USS Theodore Roosevelt Sailors Catch Coronavirus,
+                  Navy Evacuates
+                </h5>
+                <p class="card-text">
+                  The Navy announced that 3,967 sailors had been taken off the
+                  aircraft carrier in Guam, where it is docked.
+                </p>
+              </div>
+            </article>
+
+            <article class="card border-0">
+              <img
+                class="card-img-top"
+                src="https://d.newsweek.com/en/full/1579381/fea-polling-06.webp?w=591&h=364&f=386d1339e4d4694b089148c33aab6821"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  The pollsters got it wrong when Trump took on Hillary in 2016.
+                  Can you trust them this time?
+                </h5>
+                <p class="card-text">
+                  Have the pollsters learned from their mistakes in the 2016
+                  presidential election? Maybe. Maybe not.
+                </p>
+              </div>
+            </article>
+            <article class="card border-0">
+              <img
+                class="card-img-top"
+                src="https://d.newsweek.com/en/full/1580977/neel-kashkari.webp?w=397&h=265&q=90&f=8370b03aa240d5147f32e4c3a052656e"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Federal Reserve President: Coronavirus Pandemic Needs
+                  '18-Month Strategy'
+                </h5>
+                <p class="card-text">
+                  "We should prepare for the worst-case scenario," Neel Kashkari
+                  cautioned.
+                </p>
+              </div>
+            </article>
+            <article class="card border-0">
+              <img
+                class="card-img-top"
+                src="https://d.newsweek.com/en/full/1580973/dr-anthony-fauci.webp?w=397&h=265&q=90&f=8b173db91788105c54e5e0768dc7a0a5"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Fauci: U.S. 'Obviously' Could've Saved Lives by Earlier
+                  Coronavirus Action
+                </h5>
+                <p class="card-text">
+                  "It is what it is. We are where we are right now," the public
+                  health official said.
+                </p>
+              </div>
+            </article>
+            <article class="card mt-3">
+              <img
+                class="card-img-top"
+                src="https://d.newsweek.com/en/full/1580961/coronavirus-china.webp?w=397&h=265&q=90&f=35308ad53d76f792fcc7a7b583c48da6"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">The Newsweek Momentum Awards</h5>
+                <p class="card-text">
+                  The Newsweek Momentum Awards will recognize five individuals
+                  around the globe, as well as one city, which will be chosen as
+                  the "smartest city in the world."
+                </p>
+              </div>
+            </article>
+            <article class="card mt-3">
+              <img
+                class="card-img-top"
+                src="https://pubads.g.doubleclick.net/gampad/clk?id=5331500801&iu=/43459271/newsweek/homepage"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">The Newsweek Momentum Awards</h5>
+                <p class="card-text">
+                  The Newsweek Momentum Awards will recognize five individuals
+                  around the globe, as well as one city, which will be chosen as
+                  the "smartest city in the world."
+                </p>
+              </div>
+            </article>
+            <article class="card mt-3">
+              <img
+                class="card-img-top"
+                src="https://www.newsweek.com/best-hospitals-2020"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">The Newsweek Momentum Awards</h5>
+                <p class="card-text">
+                  The Newsweek Momentum Awards will recognize five individuals
+                  around the globe, as well as one city, which will be chosen as
+                  the "smartest city in the world."
+                </p>
+              </div>
+            </article>
+          </div>
+          <div
+            class="col-sm-7 order__one"
+            style="height: 1626px; position: relative;"
+          >
+            <section class="top-story">
+              <h6 class="text-muted">TOP STORY</h6>
+
+              <article class="card border-0 w-100">
+                <img
+                  class="card-img-top"
+                  src="https://d.newsweek.com/en/full/1579381/fea-polling-06.webp?w=591&h=364&f=386d1339e4d4694b089148c33aab6821"
+                  alt="Card image cap"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    The pollsters got it wrong when Trump took on Hillary in
+                    2016. Can you trust them this time?
+                  </h5>
+                  <p class="card-text">
+                    Have the pollsters learned from their mistakes in the 2016
+                    presidential election? Maybe. Maybe not.
+                  </p>
+                </div>
+              </article>
+              <h5 class="border-bottom border-top mb-3">
+                U.S. Fights Twitter War with Iran, Venezuela, and John Bolton Is
+                Leading It
+              </h5>
+              <h5 class="border-bottom mb-3">
+                What the U.S.-Iran Oil Crisis Means for Both Countries—and the
+                Rest of the World
+              </h5>
+              <h5 class="border-bottom mb-3">
+                Iran Says It Took U.K. Oil Ship as Tanker and Drone Crisis
+                Worsens
+              </h5>
+
+              <section>
+                <h6 class="text-muted">MORE STORIES</h6>
+
+                <ul class="list-unstyled">
+                  <li>
+                    <article class="media w-100">
+                      <img
+                        style="height: 63px;"
+                        class="mr-3"
+                        src="https://d.newsweek.com/en/full/1581010/christ-redeemer-covid-19-tribute.webp?w=95&h=95&f=374b7efe3add90f02a14efa28ac60e42"
+                        alt="Card image cap"
+                      />
+                      <div class="media-body">
+                        <h5 class="mt-0 mb-1">
+                          U.S. Could Build Tent Facility For Asylum Seekers in
+                          Flood Plain
+                        </h5>
+                        <p class="w-100" style="font-size: 11px;">
+                          Laredo officials made a counteroffer for the federal
+                          government to use a city office building for asylum
+                          hearings instead of a tent in a flood plain along the.
+                        </p>
+                      </div>
+                    </article>
+                  </li>
+                  <li>
+                    <article class="media w-100">
+                      <img
+                        style="height: 63px;"
+                        class="mr-3"
+                        src="https://d.newsweek.com/en/full/1581007/tate-reeves.webp?w=95&h=95&f=87a0a615e0c9b04be8f69b99a0651fad"
+                        alt="Card image cap"
+                      />
+                      <div class="media-body">
+                        <h5 class="mt-0 mb-1">
+                          U.S. Could Build Tent Facility For Asylum Seekers in
+                          Flood Plain
+                        </h5>
+                        <p class="w-100" style="font-size: 11px;">
+                          Laredo officials made a counteroffer for the federal
+                          government to use a city office building for asylum
+                          hearings instead of a tent in a flood plain along the.
+                        </p>
+                      </div>
+                    </article>
+                  </li>
+                  <li>
+                    <article class="media w-100">
+                      <img
+                        style="height: 63px;"
+                        class="mr-3"
+                        src="https://d.newsweek.com/en/full/1575949/boris-johnson.webp?w=95&h=95&f=89f47228fbd9af41999d2441c9b8bddd"
+                        alt="Card image cap"
+                      />
+                      <div class="media-body">
+                        <h5 class="mt-0 mb-1">
+                          U.S. Could Build Tent Facility For Asylum Seekers in
+                          Flood Plain
+                        </h5>
+                        <p class="w-100" style="font-size: 11px;">
+                          Laredo officials made a counteroffer for the federal
+                          government to use a city office building for asylum
+                          hearings instead of a tent in a flood plain along the.
+                        </p>
+                      </div>
+                    </article>
+                  </li>
+
+                  <li>
+                    <article class="media w-100">
+                      <img
+                        style="height: 63px;"
+                        class="mr-3"
+                        src="https://d.newsweek.com/en/full/1580962/fda-commissioner-stephen-hahn-testing.webp?w=95&h=95&f=8e6b5b931909c49b1d374ad83940d601"
+                        alt="Card image cap"
+                      />
+                      <div class="media-body">
+                        <h5 class="mt-0 mb-1">
+                          U.S. Could Build Tent Facility For Asylum Seekers in
+                          Flood Plain
+                        </h5>
+                        <p class="w-100" style="font-size: 11px;">
+                          Laredo officials made a counteroffer for the federal
+                          government to use a city office building for asylum
+                          hearings instead of a tent in a flood plain along the.
+                        </p>
+                      </div>
+                    </article>
+                  </li>
+
+                  <li>
+                    <article class="media w-100">
+                      <img
+                        style="height: 63px;"
+                        class="mr-3"
+                        src="https://d.newsweek.com/en/full/1580986/florida.webp?w=95&h=95&f=ebf3a2bb71228ff52c695822275edae3"
+                        alt="Card image cap"
+                      />
+                      <div class="media-body">
+                        <h5 class="mt-0 mb-1">
+                          U.S. Could Build Tent Facility For Asylum Seekers in
+                          Flood Plain
+                        </h5>
+                        <p class="w-100" style="font-size: 11px;">
+                          Laredo officials made a counteroffer for the federal
+                          government to use a city office building for asylum
+                          hearings instead of a tent in a flood plain along the.
+                        </p>
+                      </div>
+                    </article>
+                  </li>
+                  <li>
+                    <article class="media w-100">
+                      <img
+                        style="height: 63px;"
+                        class="mr-3"
+                        src="https://d.newsweek.com/en/full/1580984/n95-mask.webp?w=95&h=95&f=13f364fe10ed1dee5b339fcdf44fc4f9"
+                        alt="Card image cap"
+                      />
+                      <div class="media-body">
+                        <h5 class="mt-0 mb-1">
+                          U.S. Could Build Tent Facility For Asylum Seekers in
+                          Flood Plain
+                        </h5>
+                        <p class="w-100" style="font-size: 11px;">
+                          Laredo officials made a counteroffer for the federal
+                          government to use a city office building for asylum
+                          hearings instead of a tent in a flood plain along the.
+                        </p>
+                      </div>
+                    </article>
+                  </li>
+                  <li>
+                    <article class="media w-100">
+                      <img
+                        style="height: 63px;"
+                        class="mr-3"
+                        src="https://d.newsweek.com/en/full/1580975/governor-andrew-cuomo.webp?w=95&h=95&f=ef24ed74722e956e02b437cf540bb0a0"
+                        alt="Card image cap"
+                      />
+                      <div class="media-body">
+                        <h5 class="mt-0 mb-1">
+                          U.S. Could Build Tent Facility For Asylum Seekers in
+                          Flood Plain
+                        </h5>
+                        <p class="w-100" style="font-size: 11px;">
+                          Laredo officials made a counteroffer for the federal
+                          government to use a city office building for asylum
+                          hearings instead of a tent in a flood plain along the.
+                        </p>
+                      </div>
+                    </article>
+                  </li>
+                  <li>
+                    <article class="media w-100">
+                      <img
+                        style="height: 63px;"
+                        class="mr-3"
+                        src="https://d.newsweek.com/en/full/1580988/trump.webp?w=95&h=95&f=923181400da5682edb68afa8615d6512"
+                        alt="Card image cap"
+                      />
+                      <div class="media-body">
+                        <h5 class="mt-0 mb-1">
+                          U.S. Could Build Tent Facility For Asylum Seekers in
+                          Flood Plain
+                        </h5>
+                        <p class="w-100" style="font-size: 11px;">
+                          Laredo officials made a counteroffer for the federal
+                          government to use a city office building for asylum
+                          hearings instead of a tent in a flood plain along the.
+                        </p>
+                      </div>
+                    </article>
+                  </li>
+                </ul>
+              </section>
+            </section>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <section>
+            <h6 class="text-muted">OPINION</h6>
+
+            <ul class="list-unstyled">
+              <li>
+                <article class="media mt-4 w-100">
+                  <img
+                    style="height: 63px; width: 63px;"
+                    class="mr-2"
+                    src="https://d.newsweek.com/en/full/1506965/charlie-kirk.webp?w=63&h=63&f=dadcbab6cd325ee70d1bfe4df5a01410"
+                    alt="Card image cap"
+                  />
+                  <div class="media-body">
+                    <h5 class="mt-0 mb-1">
+                      Y0s, 'Send Her Back' Is the Face of Evil—I Know Fascism
+                      When I See It
+                    </h5>
+                    <h6>BY JASON STANLEY</h6>
+                  </div>
+                </article>
+              </li>
+              <li>
+                <article class="media mt-4 w-100">
+                  <img
+                    style="height: 63px; width: 63px;"
+                    class="mr-2"
+                    src="https://d.newsweek.com/en/full/1580858/kelli-ward.webp?w=63&h=63&f=aa7ca2a0afcb341b09c28f4370be8a04"
+                    alt="Card image cap"
+                  />
+                  <div class="media-body">
+                    <h5 class="mt-0 mb-1">
+                      Y0s, 'Send Her Back' Is the Face of Evil—I Know Fascism
+                      When I See It
+                    </h5>
+                    <h6>BY JASON STANLEY</h6>
+                  </div>
+                </article>
+              </li>
+              <li>
+                <article class="media mt-4 w-100">
+                  <img
+                    style="height: 63px; width: 63px;"
+                    class="mr-2"
+                    src="https://d.newsweek.com/en/full/1538525/ady-barkan.webp?w=63&h=63&f=d94611140d61004dd03476496ba84f82"
+                    alt="Card image cap"
+                  />
+                  <div class="media-body">
+                    <h5 class="mt-0 mb-1">
+                      Y0s, 'Send Her Back' Is the Face of Evil—I Know Fascism
+                      When I See It
+                    </h5>
+                    <h6>BY JASON STANLEY</h6>
+                  </div>
+                </article>
+              </li>
+              <li>
+                <article class="media mt-4 w-100">
+                  <img
+                    style="height: 63px; width: 63px;"
+                    class="mr-2"
+                    src="https://d.newsweek.com/en/full/109587/fred-guttenberg.webp?w=63&h=63&f=a99ccb96daeaf39fdc9f392003761454"
+                    alt="Card image cap"
+                  />
+                  <div class="media-body">
+                    <h5 class="mt-0 mb-1">
+                      Y0s, 'Send Her Back' Is the Face of Evil—I Know Fascism
+                      When I See It
+                    </h5>
+                    <h6>BY JASON STANLEY</h6>
+                  </div>
+                </article>
+              </li>
+              <li>
+                <article class="media mt-4 w-100">
+                  <img
+                    style="height: 63px; width: 63px;"
+                    class="mr-2"
+                    src="images/jason-stanley.png"
+                    alt="Card image cap"
+                  />
+                  <div class="media-body">
+                    <h5 class="mt-0 mb-1">
+                      Y0s, 'Send Her Back' Is the Face of Evil—I Know Fascism
+                      When I See It
+                    </h5>
+                    <h6>BY JASON STANLEY</h6>
+                  </div>
+                </article>
+              </li>
+              <li>
+                <article class="media mt-4 w-100">
+                  <img
+                    style="height: 63px; width: 63px;"
+                    class="mr-2"
+                    src="images/jason-stanley.png"
+                    alt="Card image cap"
+                  />
+                  <div class="media-body">
+                    <h5 class="mt-0 mb-1">
+                      Y0s, 'Send Her Back' Is the Face of Evil—I Know Fascism
+                      When I See It
+                    </h5>
+                    <h6>BY JASON STANLEY</h6>
+                  </div>
+                </article>
+              </li>
+              <li>
+                <article class="media mt-4 w-100">
+                  <img
+                    style="height: 63px; width: 63px;"
+                    class="mr-2"
+                    src="images/jason-stanley.png"
+                    alt="Card image cap"
+                  />
+                  <div class="media-body">
+                    <h5 class="mt-0 mb-1">
+                      Y0s, 'Send Her Back' Is the Face of Evil—I Know Fascism
+                      When I See It
+                    </h5>
+                    <h6>BY JASON STANLEY</h6>
+                  </div>
+                </article>
+              </li>
+              <li>
+                <article class="media mt-4 w-100">
+                  <img
+                    style="height: 63px; width: 63px;"
+                    class="mr-2"
+                    src="images/jason-stanley.png"
+                    alt="Card image cap"
+                  />
+                  <div class="media-body">
+                    <h5 class="mt-0 mb-1">
+                      Y0s, 'Send Her Back' Is the Face of Evil—I Know Fascism
+                      When I See It
+                    </h5>
+                    <h6>BY JASON STANLEY</h6>
+                  </div>
+                </article>
+              </li>
+            </ul>
+            <h6 class="text-muted">LATEST NEWS</h6>
+
+            <ul class="list-unstyled">
+              <li>
+                <article class="media mt-4 w-100">
+                  <img
+                    style="height: 63px;"
+                    class="mr-2"
+                    src="https://d.newsweek.com/en/full/1581067/mission-dolores-park-san-francisco.webp?w=95&h=95&f=93a17943936651a48b465c7c07674cca"
+                    alt="Card image cap"
+                  />
+                  <div class="media-body">
+                    <h6 class="mt-0 mb-1">
+                      U.S. Could Build Tent Facility For Asylum Seekers in Flood
+                      Plain
+                    </h6>
+                  </div>
+                </article>
+              </li>
+              <li>
+                <article class="media mt-4 w-100">
+                  <img
+                    style="height: 63px;"
+                    class="mr-2"
+                    src="https://d.newsweek.com/en/full/1579708/henry-mcmaster.webp?w=95&h=95&f=3c7a702d6b620ccde6d5dab81aa28236"
+                    alt="Card image cap"
+                  />
+                  <div class="media-body">
+                    <h6 class="mt-0 mb-1">
+                      U.S. Could Build Tent Facility For Asylum Seekers in Flood
+                      Plain
+                    </h6>
+                  </div>
+                </article>
+              </li>
+
+              <li>
+                <article class="media mt-4 w-100">
+                  <img
+                    style="height: 63px;"
+                    class="mr-2"
+                    src="https://d.newsweek.com/en/full/1580787/lady-gaga.webp?w=95&h=95&l=50&t=31&f=f8d22b80efaf12239b2c42cba5e4d342"
+                    alt="Card image cap"
+                  />
+                  <div class="media-body">
+                    <h6 class="mt-0 mb-1">
+                      U.S. Could Build Tent Facility For Asylum Seekers in Flood
+                      Plain
+                    </h6>
+                  </div>
+                </article>
+              </li>
+
+              <li>
+                <article class="media mt-4 w-100">
+                  <img
+                    style="height: 63px;"
+                    class="mr-2"
+                    src="https://d.newsweek.com/en/full/1580781/trump-press-briefing-coronavirus.webp?w=95&h=95&f=ecb3a6a1bb36aba9feee8a782d2ecd07"
+                    alt="Card image cap"
+                  />
+                  <div class="media-body">
+                    <h6 class="mt-0 mb-1">
+                      U.S. Could Build Tent Facility For Asylum Seekers in Flood
+                      Plain
+                    </h6>
+                  </div>
+                </article>
+              </li>
+
+              <li>
+                <article class="media mt-4 w-100">
+                  <img
+                    style="height: 63px;"
+                    class="mr-2"
+                    src="https://d.newsweek.com/en/full/1581004/fox-news-trump-feud.webp?w=95&h=95&f=aa6a072cbceff2885ab2d7de8e08ab0c"
+                    alt="Card image cap"
+                  />
+                  <div class="media-body">
+                    <h6 class="mt-0 mb-1">
+                      U.S. Could Build Tent Facility For Asylum Seekers in Flood
+                      Plain
+                    </h6>
+                  </div>
+                </article>
+              </li>
+
+              <li>
+                <article class="media mt-4 w-100">
+                  <img
+                    style="height: 63px;"
+                    class="mr-2"
+                    src="images/policy.png"
+                    alt="Card image cap"
+                  />
+                  <div class="media-body">
+                    <h6 class="mt-0 mb-1">
+                      U.S. Could Build Tent Facility For Asylum Seekers in Flood
+                      Plain
+                    </h6>
+                  </div>
+                </article>
+              </li>
+
+              <li>
+                <article class="media mt-4 w-100">
+                  <img
+                    style="height: 63px;"
+                    class="mr-2"
+                    src="images/policy.png"
+                    alt="Card image cap"
+                  />
+                  <div class="media-body">
+                    <h6 class="mt-0 mb-1">
+                      U.S. Could Build Tent Facility For Asylum Seekers in Flood
+                      Plain
+                    </h6>
+                  </div>
+                </article>
+              </li>
+
+              <li>
+                <article class="media mt-4 w-100">
+                  <img
+                    style="height: 63px;"
+                    class="mr-2"
+                    src="images/policy.png"
+                    alt="Card image cap"
+                  />
+                  <div class="media-body">
+                    <h6 class="mt-0 mb-1">
+                      U.S. Could Build Tent Facility For Asylum Seekers in Flood
+                      Plain
+                    </h6>
+                  </div>
+                </article>
+              </li>
+            </ul>
+            <article class="card border-0 mt-2" style="width: 100%;">
+              <img
+                class="card-img-top"
+                src="https://www.newsweek.com/insights/leading-business-schools-2020"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">The Newsweek Momentum Awards</h5>
+                <p class="card-text w-100">
+                  The Newsweek Momentum Awards will recognize five individuals
+                  around the globe, as well as one city, which will be chosen as
+                  the "smartest city in the world."
+                </p>
+              </div>
+            </article>
+            <article class="card border-0 mt-2" style="width: 100%;">
+              <img
+                class="card-img-top"
+                src="https://www.newsweek.com/insights/private-schools-of-distinction-2020"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">The Newsweek Momentum Awards</h5>
+                <p class="card-text w-100">
+                  The Newsweek Momentum Awards will recognize five individuals
+                  around the globe, as well as one city, which will be chosen as
+                  the "smartest city in the world."
+                </p>
+              </div>
+            </article>
+            <article class="card border-0 mt-2" style="width: 100%;">
+              <img
+                class="card-img-top"
+                src="https://pubads.g.doubleclick.net/gampad/clk?id=5344016096&iu=/43459271/newsweek/homepage"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">The Newsweek Momentum Awards</h5>
+                <p class="card-text w-100">
+                  The Newsweek Momentum Awards will recognize five individuals
+                  around the globe, as well as one city, which will be chosen as
+                  the "smartest city in the world."
+                </p>
+              </div>
+            </article>
+            <article class="card border-0 mt-2" style="width: 100%;">
+              <img
+                class="card-img-top"
+                src="https://pubads.g.doubleclick.net/gampad/clk?id=5344016096&iu=/43459271/newsweek/homepage"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">The Newsweek Momentum Awards</h5>
+                <p class="card-text w-100">
+                  The Newsweek Momentum Awards will recognize five individuals
+                  around the globe, as well as one city, which will be chosen as
+                  the "smartest city in the world."
+                </p>
+              </div>
+            </article>
+            <article class="card border-0 mt-2" style="width: 100%;">
+              <img
+                class="card-img-top"
+                src="https://pubads.g.doubleclick.net/gampad/clk?id=5344016096&iu=/43459271/newsweek/homepage"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">The Newsweek Momentum Awards</h5>
+                <p class="card-text w-100">
+                  The Newsweek Momentum Awards will recognize five individuals
+                  around the globe, as well as one city, which will be chosen as
+                  the "smartest city in the world."
+                </p>
+              </div>
+            </article>
+          </section>
+        </div>
+      </section>
+
+      <section>
+        <div class="d-flex justify-content-center">
+          <img
+            src="images/logo-n1.svg"
+            alt=""
+            style="
+              height: 30px;
+              background-color: orangered;
+              margin-top: 2px;
+              margin-right: 7px;
+            "
+          />
+          <h3>IN THE MAGAZINE</h3>
+        </div>
+        <div class="row">
+          <article class="col-md-3 mt-3 w-100">
+            <div class="card border-0">
+              <img
+                class="card-img-top w-100"
+                src="https://d.newsweek.com/en/full/1579878/april-17-24-2020-cover.webp?w=290&h=387&q=90&f=68803bc5f58747c010919715f0fe09de"
+                alt="Card image cap"
+              />
+              <div class="d-flex flex-row align-items-center mt-2">
+                <span class="mr-2 orange p-2">COVER </span>
+                <a href="#" style="color: orangered;"> HEALTH</a>
+              </div>
+              <div class="card-body card-resize">
+                <h5 class="card-title">
+                  Precision Medicine Is Crushing Once-Untreatable Cancers
+                </h5>
+              </div>
+            </div>
+          </article>
+          <article class="col-md-3 mt-3 w-100">
+            <div class="card border-0">
+              <img
+                class="card-img-top w-100"
+                src="https://d.newsweek.com/en/full/1578792/cover-story-who-would-you-save-05.webp?w=466&h=311&l=57&t=47&q=90&f=3242c9a109df1ae3544361d878810e86"
+                alt="Card image cap"
+              />
+              <div class="d-flex flex-row align-items-center mt-2">
+                <span class="mr-2 orange p-2">COVER </span>
+                <a href="#" style="color: orangered;"> HEALTH</a>
+              </div>
+              <div class="card-body card-resize">
+                <h5 class="card-title">
+                  Precision Medicine Is Crushing Once-Untreatable Cancers
+                </h5>
+              </div>
+            </div>
+          </article>
+          <article class="col-md-3 mt-3 w-100">
+            <div class="card border-0">
+              <img
+                class="card-img-top w-100"
+                src="https://d.newsweek.com/en/full/1576251/donald-trump-coronavirus-approval-rating-poll.webp?w=466&h=311&l=57&t=58&q=90&f=054d88ca28b1554dea72f1a8e2ad9776"
+                alt="Card image cap"
+              />
+              <div class="d-flex flex-row align-items-center mt-2">
+                <span class="mr-2 orange p-2">COVER </span>
+                <a href="#" style="color: orangered;"> HEALTH</a>
+              </div>
+              <div class="card-body card-resize">
+                <h5 class="card-title">
+                  Precision Medicine Is Crushing Once-Untreatable Cancers
+                </h5>
+              </div>
+            </div>
+          </article>
+          <article class="col-md-3 mt-3 w-100">
+            <div class="card border-0">
+              <img
+                class="card-img-top w-100"
+                src="https://d.newsweek.com/en/full/1579893/btn-sports-banner-basketball.webp?w=466&h=311&l=58&t=45&q=90&f=122e65d21d28590b9e2ddde46d7c12b1"
+                alt="Card image cap"
+              />
+              <div class="d-flex flex-row align-items-center mt-2">
+                <span class="mr-2 orange p-2">COVER </span>
+                <a href="#" style="color: orangered;"> HEALTH</a>
+              </div>
+              <div class="card-body card-resize">
+                <h5 class="card-title">
+                  Precision Medicine Is Crushing Once-Untreatable Cancers
+                </h5>
+              </div>
+            </div>
+          </article>
+          <article class="col-md-3 mt-3 w-100">
+            <div class="card border-0">
+              <img
+                class="card-img-top w-100"
+                src="https://d.newsweek.com/en/full/1578291/cul-quibi.webp?w=466&h=311&q=90&f=3d787233940a2cbcf6d6fd4094755ba9"
+                alt="Card image cap"
+              />
+              <div class="d-flex flex-row align-items-center mt-2">
+                <span class="mr-2 orange p-2">COVER </span>
+                <a href="#" style="color: orangered;"> HEALTH</a>
+              </div>
+              <div class="card-body card-resize">
+                <h5 class="card-title">
+                  Precision Medicine Is Crushing Once-Untreatable Cancers
+                </h5>
+              </div>
+            </div>
+          </article>
+          <article class="col-md-3 mt-3 w-100">
+            <div class="card border-0">
+              <img
+                class="card-img-top w-100"
+                src="https://d.newsweek.com/en/full/1579421/cul-uncharted-nature-02.webp?w=466&h=311&q=90&f=a65039af98a85d65dd58e4e7c01988d7"
+                alt="Card image cap"
+              />
+              <div class="d-flex flex-row align-items-center mt-2">
+                <span class="mr-2 orange p-2">COVER </span>
+                <a href="#" style="color: orangered;"> HEALTH</a>
+              </div>
+              <div class="card-body card-resize">
+                <h5 class="card-title">
+                  Precision Medicine Is Crushing Once-Untreatable Cancers
+                </h5>
+              </div>
+            </div>
+          </article>
+          <article class="col-md-3 mt-3 w-100">
+            <div class="card border-0">
+              <img
+                class="card-img-top w-100"
+                src="https://d.newsweek.com/en/full/1580527/parting-shot-uzo-aduba.webp?w=466&h=311&l=42&t=46&q=90&f=6a64d33d4eb3ba47b218a84e43e68654"
+                alt="Card image cap"
+              />
+              <div class="d-flex flex-row align-items-center mt-2">
+                <span class="mr-2 orange p-2">COVER </span>
+                <a href="#" style="color: orangered;"> HEALTH</a>
+              </div>
+              <div class="card-body card-resize">
+                <h5 class="card-title">
+                  Precision Medicine Is Crushing Once-Untreatable Cancers
+                </h5>
+              </div>
+            </div>
+          </article>
+          <article class="col-md-3 mt-3 w-100">
+            <div class="card border-0">
+              <img
+                class="card-img-top w-100"
+                src="https://d.newsweek.com/en/full/1580955/family-wearing-masks-nyc-april-2020.webp?w=397&h=265&f=05b8780a3515074d1a425bffc34738b2"
+                alt="Card image cap"
+              />
+              <div class="d-flex flex-row align-items-center mt-2">
+                <span class="mr-2 orange p-2">COVER </span>
+                <a href="#" style="color: orangered;"> HEALTH</a>
+              </div>
+              <div class="card-body card-resize">
+                <h5 class="card-title">
+                  Precision Medicine Is Crushing Once-Untreatable Cancers
+                </h5>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section>
+        <div class="d-flex justify-content-center">
+          <img
+            src="images/logo-n1.svg"
+            alt=""
+            style="
+              height: 30px;
+              background-color: orangered;
+              margin-top: 2px;
+              margin-right: 7px;
+            "
+          />
+          <h3>EDITOR'S PICK</h3>
+        </div>
+        <div class="row">
+          <article class="col-md-3 mt-3 w-100">
+            <div class="card border-0">
+              <img
+                class="card-img-top"
+                src="https://d.newsweek.com/en/full/1580936/huawei.webp?w=397&h=265&f=f4e93a3041e36ba5285fdf6eca64b39e"
+                alt="Card image cap"
+              />
+              <div class="card-body card-resize">
+                <h5 class="card-title">
+                  Death Threats Made Against Oklahoma City Thunder After Paul
+                  George Trade
+                </h5>
+                <p class="card-text">
+                  The All-Star guard was traded to the Los Angeles Clippers in a
+                  blockbuster deal last month after being recruited by Kawhi
+                  Leonard.
+                </p>
+              </div>
+            </div>
+          </article>
+          <article class="col-md-3 mt-3 w-100">
+            <div class="card border-0">
+              <img
+                class="card-img-top"
+                src="https://d.newsweek.com/en/full/1580893/abortion.webp?w=397&h=265&f=eae499c97924e81cad3a5f4d40f8716e"
+                alt="Card image cap"
+              />
+              <div class="card-body card-resize">
+                <h5 class="card-title">
+                  Death Threats Made Against Oklahoma City Thunder After Paul
+                  George Trade
+                </h5>
+                <p class="card-text">
+                  The All-Star guard was traded to the Los Angeles Clippers in a
+                  blockbuster deal last month after being recruited by Kawhi
+                  Leonard.
+                </p>
+              </div>
+            </div>
+          </article>
+          <article class="col-md-3 mt-3 w-100">
+            <div class="card border-0">
+              <img
+                class="card-img-top"
+                src="https://d.newsweek.com/en/full/1580930/spain.webp?w=397&h=265&f=eff7d650c0ac75f78466abbbcbf14afb"
+                alt="Card image cap"
+              />
+              <div class="card-body card-resize">
+                <h5 class="card-title">
+                  Death Threats Made Against Oklahoma City Thunder After Paul
+                  George Trade
+                </h5>
+                <p class="card-text">
+                  The All-Star guard was traded to the Los Angeles Clippers in a
+                  blockbuster deal last month after being recruited by Kawhi
+                  Leonard.
+                </p>
+              </div>
+            </div>
+          </article>
+          <article class="col-md-3 mt-3 w-100">
+            <div class="card border-0">
+              <img
+                class="card-img-top"
+                src="https://d.newsweek.com/en/full/1580955/family-wearing-masks-nyc-april-2020.webp?w=397&h=265&f=05b8780a3515074d1a425bffc34738b2"
+                alt="Card image cap"
+              />
+              <div class="card-body card-resize">
+                <h5 class="card-title">
+                  Death Threats Made Against Oklahoma City Thunder After Paul
+                  George Trade
+                </h5>
+                <p class="card-text">
+                  The All-Star guard was traded to the Los Angeles Clippers in a
+                  blockbuster deal last month after being recruited by Kawhi
+                  Leonard.
+                </p>
+              </div>
+            </div>
+          </article>
+          <article class="col-md-3 mt-3 w-100">
+            <div class="card border-0">
+              <img
+                class="card-img-top"
+                src="https://d.newsweek.com/en/full/1580862/denmark-health-virus-research.webp?w=397&h=265&f=3d918cd1873c7d46ceef2d730c604333"
+                alt="Card image cap"
+              />
+              <div class="card-body card-resize">
+                <h5 class="card-title">
+                  Death Threats Made Against Oklahoma City Thunder After Paul
+                  George Trade
+                </h5>
+                <p class="card-text">
+                  The All-Star guard was traded to the Los Angeles Clippers in a
+                  blockbuster deal last month after being recruited by Kawhi
+                  Leonard.
+                </p>
+              </div>
+            </div>
+          </article>
+          <article class="col-md-3 mt-3 w-100">
+            <div class="card border-0">
+              <img
+                class="card-img-top"
+                src="https://d.newsweek.com/en/full/1580899/brazil-president-jair-bolsonaro-coronavirus.webp?w=397&h=265&f=f23cf276edb6562b27a7681b980730f1"
+                alt="Card image cap"
+              />
+              <div class="card-body card-resize">
+                <h5 class="card-title">
+                  Death Threats Made Against Oklahoma City Thunder After Paul
+                  George Trade
+                </h5>
+                <p class="card-text">
+                  The All-Star guard was traded to the Los Angeles Clippers in a
+                  blockbuster deal last month after being recruited by Kawhi
+                  Leonard.
+                </p>
+              </div>
+            </div>
+          </article>
+          <article class="col-md-3 mt-3 w-100">
+            <div class="card border-0">
+              <img
+                class="card-img-top"
+                src="https://d.newsweek.com/en/full/1580916/bonnie-raitt-john-prine.webp?w=397&h=265&f=23137f2af99e4b81ecd9fafcc4cff7f9"
+                alt="Card image cap"
+              />
+              <div class="card-body card-resize">
+                <h5 class="card-title">
+                  Death Threats Made Against Oklahoma City Thunder After Paul
+                  George Trade
+                </h5>
+                <p class="card-text">
+                  The All-Star guard was traded to the Los Angeles Clippers in a
+                  blockbuster deal last month after being recruited by Kawhi
+                  Leonard.
+                </p>
+              </div>
+            </div>
+          </article>
+          <article class="col-md-3 mt-3 w-100">
+            <div class="card border-0">
+              <img
+                class="card-img-top"
+                src="https://d.newsweek.com/en/full/1580916/bonnie-raitt-john-prine.webp?w=397&h=265&f=23137f2af99e4b81ecd9fafcc4cff7f9"
+                alt="Card image cap"
+              />
+              <div class="card-body card-resize">
+                <h5 class="card-title">
+                  Death Threats Made Against Oklahoma City Thunder After Paul
+                  George Trade
+                </h5>
+                <p class="card-text">
+                  The All-Star guard was traded to the Los Angeles Clippers in a
+                  blockbuster deal last month after being recruited by Kawhi
+                  Leonard.
+                </p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section>
+        <div class="d-flex justify-content-center">
+          <img
+            src="images/logo-n1.svg"
+            alt=""
+            style="
+              height: 30px;
+              background-color: orangered;
+              margin-top: 2px;
+              margin-right: 7px;
+            "
+          />
+          <h3>FEATURED SLIDESHOWS</h3>
+        </div>
+        <div class="row">
+          <article class="col-md-4 mt-3 w-100">
+            <div class="card border-0">
+              <img
+                class="card-img-top"
+                src="./images/oscar-11.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body card-resize">
+                <h5 class="card-title">
+                  Precision Medicine Is Crushing Once-Untreatable Cancers
+                </h5>
+              </div>
+            </div>
+          </article>
+          <article class="col-md-4 mt-3 w-100">
+            <div class="card border-0">
+              <img
+                class="card-img-top"
+                src="./images/oscar-11.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body card-resize">
+                <h5 class="card-title">
+                  Precision Medicine Is Crushing Once-Untreatable Cancers
+                </h5>
+              </div>
+            </div>
+          </article>
+          <article class="col-md-4 mt-3 w-100">
+            <div class="card border-0">
+              <img
+                class="card-img-top"
+                src="./images/oscar-11.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body card-resize">
+                <h5 class="card-title">
+                  Precision Medicine Is Crushing Once-Untreatable Cancers
+                </h5>
+              </div>
+            </div>
+          </article>
+          <article class="col-md-4 mt-3 w-100">
+            <div class="card border-0">
+              <img
+                class="card-img-top"
+                src="./images/oscar-11.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body card-resize">
+                <h5 class="card-title">
+                  Precision Medicine Is Crushing Once-Untreatable Cancers
+                </h5>
+              </div>
+            </div>
+          </article>
+          <article class="col-md-4 mt-3 w-100">
+            <div class="card border-0">
+              <img
+                class="card-img-top"
+                src="./images/oscar-11.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body card-resize">
+                <h5 class="card-title">
+                  Precision Medicine Is Crushing Once-Untreatable Cancers
+                </h5>
+              </div>
+            </div>
+          </article>
+          <article class="col-md-4 mt-3 w-100">
+            <div class="card border-0">
+              <img
+                class="card-img-top"
+                src="./images/oscar-11.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body card-resize">
+                <h5 class="card-title">
+                  Precision Medicine Is Crushing Once-Untreatable Cancers
+                </h5>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section>
+        <div class="d-flex justify-content-start">
+          <h3>U.S.</h3>
+        </div>
+        <div class="row">
+          <article class="col-md-4 mt-3 w-100">
+            <div class="card border-0">
+              <img
+                class="card-img-top"
+                src="./images/arsenal.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body card-resize">
+                <h5 class="card-title">
+                  Precision Medicine Is Crushing Once-Untreatable Cancers
+                </h5>
+              </div>
+            </div>
+          </article>
+          <article class="col-md-4 mt-3 w-100">
+            <div class="card border-0">
+              <img
+                class="card-img-top"
+                src="./images/arsenal.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body card-resize">
+                <h5 class="card-title">
+                  Precision Medicine Is Crushing Once-Untreatable Cancers
+                </h5>
+              </div>
+            </div>
+          </article>
+          <ul class="list-unstyled col-md-4 mt-3 w-100">
+            <li>
+              <article class="media mt-4">
+                <img
+                  style="height: 63px;"
+                  class="mr-2"
+                  src="images/policy.png"
+                  alt="Card image cap"
+                />
+                <div class="media-body">
+                  <h6 class="mt-0 mb-1">
+                    U.S. Could Build Tent Facility For Asylum Seekers in Flood
+                    Plain
+                  </h6>
+                </div>
+              </article>
+            </li>
+            <li>
+              <article class="media mt-4 w-100">
+                <img
+                  style="height: 63px;"
+                  class="mr-2"
+                  src="images/policy.png"
+                  alt="Card image cap"
+                />
+                <div class="media-body">
+                  <h6 class="mt-0 mb-1">
+                    U.S. Could Build Tent Facility For Asylum Seekers in Flood
+                    Plain
+                  </h6>
+                </div>
+              </article>
+            </li>
+            <li>
+              <article class="media mt-4 w-100">
+                <img
+                  style="height: 63px;"
+                  class="mr-2"
+                  src="images/policy.png"
+                  alt="Card image cap"
+                />
+                <div class="media-body">
+                  <h6 class="mt-0 mb-1">
+                    U.S. Could Build Tent Facility For Asylum Seekers in Flood
+                    Plain
+                  </h6>
+                </div>
+              </article>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section>
+        <div class="d-flex justify-content-start">
+          <h3>SUBSCRIBE</h3>
+        </div>
+        <div class="row">
+          <ul class="list-unstyled col-md-7 ml-3 mt-3 jumbotron">
+            <li>
+              <article class="media position-relative w-100">
+                <img
+                  class="position-absolute mr-4"
+                  style="left: 37px; top: 27px;"
+                  src="images/skel2.jpg"
+                  alt="Card image cap"
+                />
+                <img class="mr-5" src="images/skele.jpg" alt="Card image cap" />
+                <div class="media-body">
+                  <h3 class="mt-0 mb-1">
+                    In-depth Stories You Don't See Elsewhere About Topics You
+                    Want to Read!
+                  </h3>
+                  <p>
+                    All Access + Weekly Delivery.<br />
+                    Choose A Membership That's Perfect for You!
+                  </p>
+                  <a class="btn btn-lg orange" href="#" role="button"
+                    >SUBSCRIBE</a
+                  >
+                </div>
+              </article>
+            </li>
+          </ul>
+
+          <div
+            class="card mb-3 col-md-4 border-0 mt-3 ml-3"
+            style="max-width: 540px;"
+          >
+            <div class="row no-gutters">
+              <div class="col-md-6 bg__phone"></div>
+              <div class="col-md-6">
+                <div class="card-body">
+                  <h5 class="card-title">Daily Briefing</h5>
+                  <p class="card-text">
+                    Take back your inbox. Sign up for our newsletter and start
+                    making sense of the world around you.
+                  </p>
+                  <a class="btn btn-lg orange" href="#" role="button"
+                    >SIGN UP</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <section
+        class="d-flex flex-md-row justify-content-between ml-3 flex-small border-bottom"
+      >
+        <div class="d-flex flex-row">
+          <img
+            style="height: 39px;"
+            src="https://www.logolynx.com/images/logolynx/da/da949662eecc0f76f86422c4cd8de484.png"
+            alt=""
+          />
+          <p class="copyright mt-3">© 2019 Newsweek</p>
+        </div>
+        <div class="mr-4">
+          <img src="images/social/icons8-facebook-circled-50.png" alt="" />
+
+          <img
+            style="height: 50px;"
+            src="images/social/icons8-twitter-60.png"
+            alt=""
+          />
+          <img
+            style="height: 50px;"
+            src="images/social/icons8-linkedin-2-100.png"
+            alt=""
+          />
+          <img
+            style="height: 50px;"
+            src="images/social/icons8-instagram-old-48.png"
+            alt=""
+          />
+        </div>
+      </section>
+      <section
+        class="d-flex flex-md-row justify-content-between ml-3 flex-sm-column border-bottom"
+      >
+        <div class="col-md-7">
+          <ul class="list-unstyled row mt-2">
+            <li class="mr-1 pr-1 border-right">
+              <a class="text-muted" href="#"> About Us</a>
+            </li>
+            <li class="mr-1 pr-1 border-right">
+              <a class="text-muted" href="#"> Corrections</a>
+            </li>
+            <li class="mr-1 pr-1 border-right">
+              <a class="text-muted" href="#"> Contact Us</a>
+            </li>
+            <li class="mr-1 pr-1 border-right">
+              <a class="text-muted" href="#"> Editorial Guidelines</a>
+            </li>
+            <li class="mr-1 pr-1 border-right">
+              <a class="text-muted" href="#"> Advertise</a>
+            </li>
+            <li class="mr-1 pr-1 border-right">
+              <a class="text-muted" href="#"> Copyright</a>
+            </li>
+            <li class="mr-1 pr-1 border-right">
+              <a class="text-muted" href="#"> Terms &amp; Conditions</a>
+            </li>
+            <li class="mr-1 pr-1 border-right">
+              <a class="text-muted" href="#"> Privacy Policy</a>
+            </li>
+            <li class="mr-1 pr-1 border-right">
+              <a class="text-muted" href="#"> Cookie Policy</a>
+            </li>
+            <li class="mr-1 pr-1 border-right">
+              <a class="text-muted" href="#"> Terms of Sale</a>
+            </li>
+            <li class="mr-1 pr-1 border-right">
+              <a class="text-muted" href="#"> Archive</a>
+            </li>
+            <li class="mr-1 pr-1 border-right">
+              <a class="text-muted" href="#"> Announcements</a>
+            </li>
+            <li class="mr-1 pr-1 border-right">
+              <a class="text-muted" href="#"> Consent preferences</a>
+            </li>
+          </ul>
+        </div>
+        <div
+          class="col-md-5 d-flex flex-md-row justify-content-between flex-sm-column"
+        >
+          <h5 class="text-muted mt-2">Editions:</h5>
+          <ul class="list-unstyled row mt-2">
+            <li class="mr-1 pr-1">
+              <a class="text-muted" href="#">U.S. Edition </a>
+            </li>
+            <li class="mr-1 pr-1"><a class="text-muted" href="#">日本 </a></li>
+            <li class="mr-1 pr-1"><a class="text-muted" href="#">한국 </a></li>
+            <li class="mr-1 pr-1">
+              <a class="text-muted" href="#">Pakistan </a>
+            </li>
+            <li class="mr-1 pr-1">
+              <a class="text-muted" href="#">Polska </a>
+            </li>
+            <li class="mr-1 pr-1">
+              <a class="text-muted" href="#">România</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
