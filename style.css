@@ -1,5 +1,6 @@
-svg {
-  color: #ffffff;
-  height: 90px;
-  width: 180px;
+
+
+.header {
+  height: 6rem !important;
+  background: #f72210;
 }
