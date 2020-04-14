@@ -30,7 +30,7 @@
 
   <p align="center">
      
- This is a  cloning of The Next Web, a tech-focused magazine which uses media queries to gracefully degrade their site as the window size is reduced.This project is for educational purpose only It is part of the Microverse curriculum in HTML and CSS Collaboration Project!
+ This project is a replica of the news site Newsweek.com using the Bootstrap framework.This project is for educational purpose only It is part of the Microverse curriculum in HTML and CSS Collaboration Project!
     <br />
     <a href="https://github.com/DickensJuma/Newsweek"><strong>Explore the docs »</strong></a>
     <br />
