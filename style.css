@@ -65,7 +65,7 @@ footer a:hover {
   color: black;
 }
 
-.section-2 .in-the-mag-img a {
+.section-2 .magazine-img a {
   color: #f72210;
 }
 
@@ -349,14 +349,14 @@ footer .footer-brand svg {
   border: none;
 }
 
-.section-2 .in-the-mag-img .img-container {
+.section-2 .magazine-img .img-container {
   display: block;
   position: relative;
   padding-bottom: 100%;
   overflow: hidden;
 }
 
-.section-2 .in-the-mag-img img {
+.section-2 .magazine-img img {
   transform: translate(-50%, 0%);
   position: absolute;
   width: auto;
@@ -366,11 +366,11 @@ footer .footer-brand svg {
   left: 50%;
 }
 
-.section-2 .in-the-mag-img .card-body h6 {
+.section-2 .magazine-img .card-body h6 {
   margin-left: -20px;
 }
 
-.section-2 .in-the-mag-img .title span {
+.section-2 .magazine-img .title span {
   background: #f72210;
   color: white;
   padding: 7px 5px;
@@ -381,8 +381,8 @@ footer .footer-brand svg {
 }
 
 .logo-slideshow::after {
-  border-bottom: 3px solid red;
-  border-right: 3px solid red;
+  border-bottom: 3px solid #f72210;
+  border-right: 3px solid #f72210;
   display: block;
   content: "";
   width: 26px;
@@ -490,9 +490,94 @@ footer .footer-list {
   }
 }
 
-@media screen and (max-width: 661px) {
+.fa-bars {
+  font-size: 33px;
+  padding-left: 3px;
+  color: #fb9a94;
+  display: none;
 }
 
+.fa-angle-right {
+  padding-left: 6px;
+  font-size: 33px;
+}
+
+.fa-search {
+  color: #000000;
+  font-size: 20px;
+  margin: 8px 7px;
+}
+
+.form-control {
+  border: none;
+  width: 30px;
+}
+.nav-one-container {
+  width: 100%;
+  background-color: #f72210;
+  padding: 20px 10px 15px;
+}
+
+.nav-one-middle > a {
+  text-decoration: none;
+}
+
+.nav-one-middle > a > svg {
+  width: 396px;
+  height: 60px;
+  fill: white;
+}
+
+.nav-one-item > .date {
+  font: 16px/34px "Roboto Condensed", sans-serif;
+  color: white;
+  margin-left: 20px;
+}
+
+.newsletter-img {
+  background: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9…)
+    center center / cover no-repeat;
+  height: 301px;
+  width: 190px;
+}
+
+.signin-button,
+.subscribe-button {
+  text-transform: uppercase;
+  padding: 6px 10px;
+  font: "Roboto Condensed", sans-serif;
+  font-size: 18px;
+  height: 30px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  /* line-height: 6px; */
+}
+
+.signin-button {
+  color: white;
+}
+
+.subscribe-button {
+  background-color: white;
+  color: #f72210;
+}
+
+@media screen and (max-width: 426px) {
+  .top-nav {
+    width: 350px;
+    flex-wrap: nowrap;
+    height: 45px;
+  }
+}
+
+@media screen and (max-width: 377px) {
+  .top-nav {
+    width: 350px;
+    flex-wrap: nowrap;
+    height: 50px;
+  }
+}
 @media screen and (max-width: 778px) {
   .section-6 #imgs-2 {
     height: 200px !important;
@@ -547,93 +632,6 @@ footer .footer-list {
   footer .row ul li {
     border: none !important;
   }
-}
-
-@media screen and (max-width: 426px) {
-  .top-nav {
-    width: 350px;
-    flex-wrap: nowrap;
-    height: 45px;
-  }
-}
-
-@media screen and (max-width: 377px) {
-  .top-nav {
-    width: 350px;
-    flex-wrap: nowrap;
-    height: 50px;
-  }
-}
-.fa-bars {
-  font-size: 33px;
-  padding-left: 3px;
-  color: #fb9a94;
-  display: none;
-}
-
-.fa-angle-right {
-  padding-left: 6px;
-  font-size: 33px;
-}
-.fa-search {
-  color: #000000;
-  font-size: 20px;
-  margin: 8px 7px;
-}
-.form-control {
-  border: none;
-  width: 30px;
-}
-.nav-one-container {
-  width: 100%;
-  background-color: #f72210;
-  /* height: 95px; */
-  padding: 20px 10px 15px;
-}
-
-.nav-one-middle > a {
-  text-decoration: none;
-}
-
-.nav-one-middle > a > svg {
-  width: 396px;
-  height: 60px;
-  fill: white;
-}
-
-.nav-one-item > .date {
-  font: 16px/34px "Roboto Condensed", sans-serif;
-  color: white;
-  margin-left: 20px;
-}
-
-.newletter-img {
-  background: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9…)
-    center center / cover no-repeat;
-  height: 301px;
-  width: 190px;
-}
-
-.signin-button,
-.subscribe-button {
-  text-transform: uppercase;
-  padding: 6px 10px;
-  font: "Roboto Condensed", sans-serif;
-  font-size: 18px;
-  height: 30px;
-  font-weight: 700;
-  display: flex;
-  align-items: center;
-  /* line-height: 6px; */
-}
-
-.signin-button {
-  color: white;
-}
-
-.subscribe-button {
-  background-color: white;
-  color: #f72210;
 }
 
 @media only screen and (max-width: 992px) {
