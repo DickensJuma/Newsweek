@@ -12,6 +12,9 @@ body p {
 .brand > svg {
   fill: #ffffff;
 }
+.nav-item {
+  display: none;
+}
 
 .left-nav a,
 .right-nav a {
@@ -591,7 +594,8 @@ footer .footer-list {
   }
 
   .left-nav {
-    display: block;
+    display: flex;
+    flex-direction: column;
   }
   .nav .nav-left-text .nav-text {
     display: none;
@@ -676,6 +680,9 @@ footer .footer-list {
 }
 
 @media screen and (max-width: 426px) {
+  .list-item {
+    display: none;
+  }
   .top-nav {
     width: 350px;
     flex-wrap: nowrap;
@@ -692,6 +699,9 @@ footer .footer-list {
 }
 
 @media screen and (max-width: 377px) {
+  .list-item {
+    display: none;
+  }
   .top-nav {
     width: 350px;
     flex-wrap: nowrap;
