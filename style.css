@@ -28,7 +28,11 @@ footer a:hover {
 
 .main-container {
   background: #fff;
-  padding: 0 40px;
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  flex-direction: column;
+  margin: 0 57px;
 }
 
 .container-fluid {
@@ -313,8 +317,7 @@ footer .footer-brand svg {
 }
 
 .section-1 .column3 .newsletter span {
-  background:
-    url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain
+  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain
     no-repeat #f72210;
   display: flex;
   height: 29px;
@@ -344,8 +347,7 @@ footer .footer-brand svg {
 }
 
 .separator .span-logo {
-  background:
-    url(https://g.newsweek.com/www/images/logo-n1.svg) center
+  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center
     no-repeat #f72210;
   height: 29px;
   width: 29px;
@@ -426,8 +428,7 @@ footer .footer-brand svg {
 }
 
 .section-6 .item-2 .images {
-  background:
-    url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&amp;h=265&amp;q=90&amp;f=742bce9a6f72dd8f19ba2e7fd5db06e5")
+  background: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&amp;h=265&amp;q=90&amp;f=742bce9a6f72dd8f19ba2e7fd5db06e5")
     center center / cover no-repeat;
 }
 
@@ -467,9 +468,9 @@ footer .footer-list {
 
 @media only screen and (max-width: 992px) {
   .main-container {
-    padding: 0 40px;
+    margin: 0;
+    padding:0 15px;
   }
-
   .top-nav {
     justify-content: space-between;
   }
@@ -533,8 +534,7 @@ footer .footer-list {
 }
 
 .newsletter-img {
-  background:
-    url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9…)
+  background: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9…)
     center center / cover no-repeat;
   height: 301px;
   width: 190px;
@@ -565,7 +565,7 @@ footer .footer-list {
   .top-nav {
     width: 350px;
     flex-wrap: nowrap;
-    height: 45px;
+    height: 40px;
   }
 }
 
@@ -573,7 +573,7 @@ footer .footer-list {
   .top-nav {
     width: 350px;
     flex-wrap: nowrap;
-    height: 50px;
+    height: 40px;
   }
 }
 
