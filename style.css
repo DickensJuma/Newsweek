@@ -318,7 +318,8 @@ footer .footer-brand svg {
 }
 
 .section-1 .column3 .newsletter span {
-  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain
+  background:
+    url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain
     no-repeat #f72210;
   display: flex;
   height: 29px;
@@ -348,7 +349,8 @@ footer .footer-brand svg {
 }
 
 .separator .span-logo {
-  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center
+  background:
+    url(https://g.newsweek.com/www/images/logo-n1.svg) center
     no-repeat #f72210;
   height: 29px;
   width: 29px;
@@ -429,7 +431,8 @@ footer .footer-brand svg {
 }
 
 .section-6 .item-2 .images {
-  background: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&amp;h=265&amp;q=90&amp;f=742bce9a6f72dd8f19ba2e7fd5db06e5")
+  background:
+    url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&amp;h=265&amp;q=90&amp;f=742bce9a6f72dd8f19ba2e7fd5db06e5")
     center center / cover no-repeat;
 }
 
@@ -536,7 +539,8 @@ footer .footer-list {
 }
 
 .newsletter-img {
-  background: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9…)
+  background:
+    url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9…)
     center center / cover no-repeat;
   height: 301px;
   width: 190px;
